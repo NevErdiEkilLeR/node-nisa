@@ -1,0 +1,32 @@
+{
+  "name": "hp-6623-igbt-test",
+  "version": "1.0.0",
+  "description": "HP 662x for capturing voltage/current characteristic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samofab/node-nisa-examples.git"
+  },
+  "keywords": [
+    "node.js",
+    "GPIB",
+    "VISA",
+    "NI",
+    "Keithley"
+  ],
+  "author": "Samo Fabcic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samofab/node-nisa-examples/issues"
+  },
+  "homepage": "https://github.com/samofab/node-nisa-examples/hp-6623-igbt-test#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "node-nisa": "^1.0.0",
+    "to-csv": "^0.1.0"
+  }
+}

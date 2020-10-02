@@ -1,0 +1,32 @@
+{
+  "name": "keithley-199-influx",
+  "version": "1.0.0",
+  "description": "Keithley 199 NODE VISA interfacing with InfluxDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samofab/node-nisa-examples.git"
+  },
+  "keywords": [
+    "node.js",
+    "GPIB",
+    "VISA",
+    "NI",
+    "Keithley",
+    "InfluxDB"
+  ],
+  "author": "Samo Fabcic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samofab/node-nisa-examples/issues"
+  },
+  "homepage": "https://github.com/samofab/node-nisa-examples/keithley-199-influx#readme",
+  "dependencies": {
+    "influx": "^4.0.1",
+    "node-nisa": "^1.0.0"
+  }
+}

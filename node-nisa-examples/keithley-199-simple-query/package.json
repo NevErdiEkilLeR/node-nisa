@@ -1,0 +1,31 @@
+{
+  "name": "keithley-199-simple-query",
+  "version": "1.0.0",
+  "description": "Keithley 199 NODE VISA simple query example",
+  "main": "indeserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samofab/node-nisa-examples.git"
+  },
+  "keywords": [
+    "node.js",
+    "GPIB",
+    "VISA",
+    "NI",
+    "Keithley"
+  ],
+  "author": "Samo Fabcic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samofab/node-nisa-examples/issues"
+  },
+  "homepage": "https://github.com/samofab/node-nisa-examples#readme",
+  "dependencies": {
+    "node-nisa": "^1.0.0",
+    "standard-deviation-stream": "0.0.3"
+  }
+}

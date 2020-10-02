@@ -1,0 +1,31 @@
+{
+  "name": "keithley-199-data-store",
+  "version": "1.0.0",
+  "description": "Keithley 199 NODE VISA reading data after instrument is finished acquiring it (on SRQ)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samofab/node-nisa-examples.git"
+  },
+  "keywords": [
+    "node.js",
+    "GPIB",
+    "VISA",
+    "NI",
+    "Keithley"
+  ],
+  "author": "Samo Fabcic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samofab/node-nisa-examples/issues"
+  },
+  "homepage": "https://github.com/samofab/node-nisa-examples/keithley-199-data-store#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "node-nisa": "^1.0.0"
+  }
+}
